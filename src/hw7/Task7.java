@@ -17,9 +17,9 @@ public class Task7 {
             System.out.print(i + " ");
         }
         int largestNumber = numbers[0];
-        for (int j = 0; j < numbers.length; j++) {
-            if (numbers[j] > largestNumber) {
-                largestNumber = numbers[j];
+        for (int number : numbers) {
+            if (number > largestNumber) {
+                largestNumber = number;
             }
         }
         System.out.println();
