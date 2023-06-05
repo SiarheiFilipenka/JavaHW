@@ -8,4 +8,9 @@ public class Task02 {
             System.out.println("Username is available");
         }
     }
+
+    public static void main(String[] args) {
+
+        checkUserName("Blizz");
+    }
 }

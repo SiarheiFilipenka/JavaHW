@@ -9,4 +9,9 @@ public class Task01 {
             System.out.println("Age is eligible.");
         }
     }
+
+    public static void main(String[] args) {
+
+        ageEligibility(10);
+    }
 }
